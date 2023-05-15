@@ -21,12 +21,12 @@ vi .env
 ## Deploy
 
 ```bssh
-npx hardhat run --network {ethereum||goerli||sepolia} "scripts/deploy.js"
+npx hardhat run --network {ethereum||goerli} "scripts/deploy.js"
 ```
 
 ## Verify
 
 ```bash
-npx hardhat verify --constructor-args arguments.js --contract "contracts/MoeErc20.sol:MoeErc20" --network {ethereum||goerli||sepolia} {CONTRACT_ADDRESS}
+npx hardhat verify --constructor-args arguments.js --contract "contracts/MoeErc20.sol:MoeErc20" --network {ethereum||goerli} {CONTRACT_ADDRESS}
 ```
 
