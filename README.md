@@ -14,13 +14,13 @@
 
 ```bash
 npm install
-cp .env.sample. env
+cp .env.sample .env
 vi .env
 ```
 
 ## Deploy
 
-```bssh
+```bash
 npx hardhat run --network {ethereum||sepolia} "scripts/deploy.js"
 ```
 
